@@ -2,3 +2,10 @@
     text-align: center;
 
 }
+
+btn-dark{
+    background:red;
+}
+btn-success{
+    background:blue;
+}
