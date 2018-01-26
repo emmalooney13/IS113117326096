@@ -1,0 +1,14 @@
+#section1{
+    background-color: rgb(100,20,90);
+}
+#section2{
+    background-color: rgb(55,200,80);
+}
+#section3{
+    background-color: rgb(60,100,204);
+}
+
+.section{
+    text-align: center;
+    color: white;
+}

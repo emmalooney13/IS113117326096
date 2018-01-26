@@ -1,0 +1,14 @@
+.mainheading{
+    text-align: center;
+  
+}
+
+btn-dark{
+    background:pink;
+}
+btn-success{
+    background:blue;
+}
+body{
+    background:blue;
+}
