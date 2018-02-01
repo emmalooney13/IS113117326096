@@ -19,12 +19,15 @@
 }
  </style> 
  
+ 
  <!-- container element -->
  <div class="parallax"></div>
  
+ 
+
         
     <title>117326096 </title>
-    <link rel="stylesheet" href="mystylesheet.css" type="text/css"/>
+    <link rel="stylesheet" href="mystylesheet2.css" type="text/css"/>
     <!--adding bootstap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     
@@ -35,17 +38,32 @@
     </head>
     <body>
         <h1 class="mainheading"> Emma Looney</h1>
+        <marquee> Welcome!</marquee>
       <p><strong>About Me:</strong> I'm 19 years old. I live in Cork City, I am studying Business Inormation Systems in Unversity College Cork</p>
         
      
        
+        <!– Keep all menus within masterdiv–>
+<div id=”masterdiv”><div   onclick=”SwitchMenu(‘sub1’)”>Curriculum Vitae </div>
+<span id=”sub1″>
+    
+<a href="cv_page1.html" >Personal Details </a> <br/>
+<a href="cv_page2.html" >Education </a> <br/>
+<a href="cv_page3.html" >Work Experience </a> <br/>
+<br/>
+</span><div onclick=”SwitchMenu(‘sub2’)”>Interests</div>
+<span id=”sub2″>
+     <a href="../Sports.html" >Sports </a> <br/>
+ <a href="../Travel.html" >Travel </a> <br/>
+<a href="../Hobbies.html" >Work Experience </a> <br/>
+<br/>
+</span><div onclick=”SwitchMenu(‘sub3’)”>EBus</div>
+<span id=”sub3″>
+<a href="../ebus1.php" >ebus1 </a> <br/>
+<a href="../ebus2.php" >ebus2</a> <br/>
+
+</span></div>
        
-        <a href="cv_page1.html" class="btn btn-success">Curriculum Vitae </a>
-        <br/>
-        <a href="interests/Sports.html" class="btn btn-success">Interests </a>
-        <br/>
-        <a href="ebusiness/ebus1.php" class="btn btn-success">Ebus </a>
-        
    
     </body>
     
