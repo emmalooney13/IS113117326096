@@ -8,7 +8,7 @@
     
     </head>
     
-    <body>
+    <body style="background-color:powderblue;">
         
         <h4>Select A Product</h4>
         
