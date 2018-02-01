@@ -1,0 +1,21 @@
+<style>
+.parallax {
+ /* the image used */
+ background-image:
+ url("https://tctechcrunch2011.files.wordpress.com/2017/05/gettyimages-580833893.jpg?w=738");
+ /* set a specific height*/
+ height: 500px;
+ /* create the parallax scrolling effect */
+ background-attachment:
+ fixed;
+ background-position: 
+ center;
+ background-repeat: 
+ no-repeat;
+ background-size: cover;
+}
+ </style> 
+ 
+ <!-- container element -->
+ <div class="parallax"></div>
+ 
