@@ -12,3 +12,17 @@ btn-success{
 body{
     background:blue;
 }
+
+
+a li{
+    list-style: none;
+    color:black;
+}
+
+.box{
+    position:absolute;
+    padding:2%;
+    left:40%;
+    background:green;
+
+}
