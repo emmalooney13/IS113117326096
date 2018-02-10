@@ -3,6 +3,7 @@
       background: url("http://www.rockroutesholidays.com/sites/default/files/guide/medano2.jpg") ;
 text-align: center;
     color: black;
+     background-size: cover;
     
 }
 #section2{
@@ -10,6 +11,7 @@ text-align: center;
      background: url("https://www.capitalfm.co.ke/campus/files/2016/12/london.jpg" )no-repeat 0% 100% ;
 text-align: center;
     color: white;
+     background-size: cover;
     
 }
 #section3{
@@ -17,5 +19,6 @@ text-align: center;
     color: white;
  
      background: url("https://i.ytimg.com/vi/na9eBzLMhTg/maxresdefault.jpg") ;
+      background-size: cover;
 }
 
