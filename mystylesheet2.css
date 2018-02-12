@@ -107,3 +107,32 @@ footer h1
   line-height: 300px;
 }
 
+
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+}
+.icon-bar {
+    width: 65%; /* Full-width */
+    background-color: #555; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+  
+}
+
+.icon-bar a {
+    float: left; /*having the home button left */
+    text-align: center; /* buttons aligned in center */
+    width: 20%; 
+    padding: 5px 0; /* some spacing */
+    color: #FFF; /* White text  */
+    font-size: 36px; /* font size */
+    position: relative
+}
+
+.icon-bar a:hover {
+    background-color: #000; /*  a hover color */
+}
+
+.active {
+    background-color: #4CAF50;  
+}
