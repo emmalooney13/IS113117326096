@@ -1,67 +1,5 @@
-#scroll-animate
-{
-  overflow: hidden;
-}
-
-#scroll-animate-main
-{
-  width: 100%;
-  left: 0;
-  position: fixed;
-}
-
-#heightPage,
-#heightScroll
-{
-  width: 10px;
-  top: 0;
-  position: absolute;
-  z-index: 99;
-}
-
-#heightPage
-{
-  left: 0;
-}
-
-#heightScroll
-{
-  right: 0;
-}
-
-header
-{
-  width: 100%;
-  height: 100%;
-  background: url(https://raw.githubusercontent.com/hudsonmarinho/header-and-footer-parallax-effect/master/assets/images/bg-header.jpg) no-repeat 50% 50%;
-  top: 0;
-  position: fixed;
-  z-index: -1;
-}
-
-footer
-{
-  width: 100%;
-  height: 300px;
-  background: gray;
-  bottom: -300px;
-  position: fixed;
-  z-index: -1;
-}
-
-.content
-{
-  height: 1000px;
-  min-height: 1000px;
-  background: #ededed;
-  position: relative;
-  z-index: 1;
-}
-
-.wrapper-parallax {
-  margin-top: 100%;
-  margin-bottom: 300px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+html,body{
+  width:100%;
 }
 
 ul{
@@ -73,7 +11,6 @@ ul{
 ul li{
   display:inline;
   margin:2%;
-  
 }
 
 a{
@@ -81,6 +18,12 @@ a{
   color:black;
 }
 
+nav{
+  position:absolute;
+  top:10%;
+  left:-40%;
+  width:100%;
+}
 
 
 .mainheading{
@@ -101,38 +44,18 @@ a{
   line-height: 1000px;
   color: #999;
 }
+body{
+  background-image: url("https://seekraz.files.wordpress.com/2012/06/silver-lake-panorama.jpg")
+}
 
-footer h1
-{
-  line-height: 300px;
+.container{
+  width:100%;
+  padding:3%;
+  background:black;
+}
+
+a{
+  color:white;
 }
 
 
-.topnav {
-    overflow: hidden;
-    background-color: #e9e9e9;
-}
-.icon-bar {
-    width: 65%; /* Full-width */
-    background-color: #555; /* Dark-grey background */
-    overflow: auto; /* Overflow due to float */
-  
-}
-
-.icon-bar a {
-    float: left; /*having the home button left */
-    text-align: center; /* buttons aligned in center */
-    width: 20%; 
-    padding: 5px 0; /* some spacing */
-    color: #FFF; /* White text  */
-    font-size: 36px; /* font size */
-    position: relative
-}
-
-.icon-bar a:hover {
-    background-color: #000; /*  a hover color */
-}
-
-.active {
-    background-color: #4CAF50;  
-}
