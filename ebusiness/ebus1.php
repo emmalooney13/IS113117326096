@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -14,7 +15,7 @@
         
         <br/>
         
-        <form method="POST" action="Ebus2.php">
+        <form method="POST" action="ebus2.php">
         
         <label for="salesforce">
             <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/> 
@@ -40,7 +41,7 @@
         
         <label for="total">
             Total
-            <input type="text" id="total" value="0.00" readonly/>
+            <input type="text" id="total" name="total" value="0.00" readonly/>
         </label>
         
         <br/>
@@ -53,7 +54,6 @@
         <button onClick="calcSub()">Calculate Cost</button>
           <a role="button" href="Ebus1.php">Clear Choice</a>
        
-        
-        
+       
     </body>
 </html>

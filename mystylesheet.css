@@ -1,3 +1,6 @@
+html,body{
+  width:100%;
+}
 .mainheading{
     text-align: center;
   
@@ -24,6 +27,7 @@ a li{
     left:45%;
     background:white;
     border-radius:15%;
+
 }
 
 
