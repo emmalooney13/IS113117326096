@@ -1,0 +1,32 @@
+.mainheading{
+      width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 200%;
+    
+}
+.container{
+  display:inline;
+  margin:5%
+}
+.footer{
+    position: absolute;
+    top: 100%;
+    left:40%;
+}
+.terms{
+     position: absolute;
+    top: 100%;
+    left:80%;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+nav{
+display:inline;
+}
