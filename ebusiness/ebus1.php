@@ -6,27 +6,42 @@
     <!--jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="cost_cal.js"></script>
+      <link rel="stylesheet" href="mystylesheet4.css" type="text/css"/>
     
     </head>
     
     <body style="background-color:powderblue;">
         
-        <h4>Select A Product</h4>
+        <center><h4>Select A Product</h4>
         
         <br/>
-        
+        <div class="container">
         <form method="POST" action="ebus2.php">
         
-        <label for="salesforce">
+        <label for="Sales Force">
             <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/> 
-        SalesForce @ $100
+        Sales Force @ $100
         </label>
         
         <br/>
         
-        <label for="aws">
-            <input type="radio" id="aws" name="product" checked onClick="disablebtnProceed()"/> 
-        AWS @ $300
+        <label for="Cloud 9">
+            <input type="radio" id="cloud9" name="product" checked onClick="disablebtnProceed()"/> 
+        Cloud9 @ $300
+        </label>
+        
+         <br/>
+         
+         <label for="Amazon">
+            <input type="radio" id="amazon" name="product" checked onClick="disablebtnProceed()"/> 
+        Amazon @ $200
+        </label>
+        
+         <br/>
+         
+         <label for="Gmail">
+            <input type="radio" id="gmail" name="product" checked onClick="disablebtnProceed()"/> 
+        Gmail @ $150
         </label>
         
         <br/>
@@ -52,7 +67,8 @@
         
         <br/>
         <button onClick="calcSub()">Calculate Cost</button>
-          <a role="button" href="Ebus1.php">Clear Choice</a>
+          <a role="button" href="Ebus1.php">Clear Choice</a></center>
+          </div>
        
        
     </body>

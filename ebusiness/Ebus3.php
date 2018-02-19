@@ -7,12 +7,14 @@ session_start();
     <head>
         <title> Receipt</title>
      </head>
-    <body>
+    <body style="background-color:powderblue;">
         <h4>Receipt</h4>
         
         <?php
         //echo session variables that were set on previous page 
         echo "total is " . $_SESSION["total"] .".";
+        
+        echo "first name is " . $_SESSION["name"] .".";
         ?>
     </body>
     </html>
