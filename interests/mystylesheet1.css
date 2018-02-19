@@ -9,7 +9,7 @@
   text-align: center;
   width: 100%;
 }
-.share a {
+.share a{
   background: powderblue;
   border: 1px solid powderblue;
   border-radius: 3px;
@@ -19,7 +19,7 @@
   text-decoration: none;
   margin: 10px;
 }
-.share a:hover {
+.share a:hover{
   background: white;
   border: 1px solid powderblue;
   color: powderblue;

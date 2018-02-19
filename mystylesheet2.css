@@ -10,18 +10,15 @@ ul{
 
 ul li{
   display:inline;
-  margin:2%;
+ margin: 2%;
 }
 
-a{
-  text-decoration:none;
-  color:black;
-}
+
 
 nav{
   position:absolute;
   top:10%;
-  left:-55%;
+  left:-30%;
   width:100%;
 }
 
@@ -43,21 +40,22 @@ nav{
   color: #999;
 }
 body{
-  background-image: url("https://static.pexels.com/photos/371633/pexels-photo-371633.jpeg")  ;
+ background-image: url("https://static.wixstatic.com/media/9c608a_30e7a1feae5c4d8a96f3cd1261fd4658.jpg/v1/fill/w_1000,h_581,al_c,q_85/9c608a_30e7a1feae5c4d8a96f3cd1261fd4658.jpg")  ;
   background-size: cover;
 }
 
 .container{
+  top:0%;
   width:100%;
+  height:250%;
   padding:3%;
-  background:black;
+  background:white;
 }
 
 a{
-  color:white;
+  text-decoration:none;
 }
-.share a:hover {
-  background: white;
-  border: 1px solid black;
+nav a{
+ 
+  color:black;
 }
-
