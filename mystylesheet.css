@@ -5,7 +5,42 @@ html,body{
     text-align: center;
   
 }
-
+.button2{
+    position: absolute;
+    top: 52.5%;
+    left:85%;
+ 
+}
+.button3{
+    position: absolute;
+    top: 171%;
+    left:85%;
+}
+.button4{
+    position: absolute;
+    top: 92.5%;
+    left:84%;
+}
+div> .button1> a:hover { 
+    background-color: lightgrey;
+    color: black;
+    
+}
+div> .button2> a:hover { 
+    background-color: lightgrey;
+     color: black;
+    
+}
+div> .button3> a:hover { 
+    background-color: lightgrey;
+     color: black;
+    
+}
+div> .button4> a:hover { 
+    background-color: white;
+     color: black;
+    
+}
 btn-dark{
     background:red;
 }
@@ -13,7 +48,7 @@ btn-success{
     background:blue;
 }
 body{
-    background-color: grey;
+    background-color: lightgrey;
 }
 
 a li{
@@ -23,8 +58,10 @@ a li{
 
 
 .header{
-    background-color: white;
+    background-color: lightgrey;
     
 }
 
-
+.container{
+    background-color:white;
+}
