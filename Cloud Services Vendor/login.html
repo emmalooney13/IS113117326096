@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Login Form</title>
+        <style>
+            body{
+                background:gray;
+            }
+            .log-in{
+                max-width: 350px;
+                background: #2e2e54;
+                padding:40px;
+                color:white;
+                font-family:sans-serif;
+                font-weight:bold;
+                letter-spacing: 1px;
+                margin:auto;
+            }
+            span{
+                font-size:15px;
+            }
+            input[type=text], input[type=password]{
+                width:100%;
+                   padding:10px ;
+                   margin: 10px 0;
+            }
+             input[type=submit]{
+             width:49%;
+             padding:15px;
+             margin-top:30px;
+             Background:#5454d8;
+             border:none;
+             color:white;
+             font-size:20px;
+             font-weight:bold;
+             letter-spacing:1px;
+             cursor:pointer;
+            
+        </style>
+    </head>
+    <body>
+        <div class="log-in">
+            <form>
+                <label for="username"> Username</label>
+                <input type="text" name="username" placeholder ="Username">
+                <br/>
+                 <label for="password"> Password</label>
+                 <input type="password" name="password" placeholder ="Password">
+                 <br/>
+                 <input type="checkbox" name="checkname"><span>Remember Me</span>
+                 <br/>
+                 <input type="submit" value="Reset">
+                 <input href="../Cloud.html" type="submit" value="Login">
+                  </form>
+        </div>
+    </body>
+</html>

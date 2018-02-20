@@ -4,18 +4,134 @@
          <title> Cloud Services Vendor </title>
    <link rel="stylesheet" href="mystylesheet3.css" type="text/css"/>
    
+    <style>
+      body{
+         margin:0;
+         background: lightgrey;
+        }
+        .nav{
+         width: 100%;
+         background: #000033;
+         height: 80px;
+         
+        }
+         ul{
+         list-style: none;
+         padding:0;
+         margin: 0;
+         position: absolute;
+        }
+         ul li{
+         float: left;
+         margin-top: 20px;
+        }
+         ul li a{
+         width: 150px;
+         color:white;
+         display: block;
+         text-decoration: none;
+         font-size: 20px;
+         text-align: center;
+       
+         border-radius:10px;
+         font-family:sans-serif;
+         font-weight:bold;
+        }
+        ul li:hover{
+         background:white;
+         color:black;
+        }
+        
+        ul li ul {
+         float:none;
+        }
+        ul li ul li {
+         display: none;
+        }
+         ul li ul li :hover {
+       
+         color:black;
+        }
+         ul li :hover ul {
+         display:block;
+         visibility: visible;
+         color:black;
+         }
+        .search-form{
+         margin-top: 15px;
+         float: right;
+         margin-right: 100px;
+        }
+        input[type=text]{
+         padding: 7px;
+         border:none;
+         font-size:16px;
+         font-family:sans-serif;
+        }
+        button{ 
+         float: right ;
+         background:skyblue;
+         color:white;
+         border-radius: 0 5px 5px 0;
+         cursor: pointer;
+         position: relative;
+         padding: 7px;
+         font-family: sans-serif;
+         border: none;
+         font-size: 16px;
+        }
+    </style>
     </head>
     <body>
-    
+  
+       <div class='nav'>
         
-       <h1 class="mainheading">Cloud Services Vendor </h1>   
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
+         
+            <ul>
+              <li><a href ="#">Sales Force</a></li>
+               <ul>
+                  <li></li><a href ="#">About:</a></li>
+                  <li><a href ="#">Product:</a></li>
+                  <li><a href ="../ebus1.php">Buy Now:</a></li>
+              </ul>
+            
+              <li><a href ="#">Cloud 9</a></li>
+                <ul>
+                  <li><a href ="#">About:</a></li>
+                  <li><a href ="#">Product:</a></li>
+                  <li><a href ="../ebus1.php">Buy Now:</a></li>
+                </ul>
+             <li><a href ="#">Amazon</a></li>
+                <ul>
+                   <li><a href ="#">About:</a></li>
+                    <li><a href ="#">Product:</a></li>
+                    <li><a href ="../ebus1.php">Buy Now:</a></li>
+                </ul>
+              <li><a href ="#">Gmail</a></li>
+                <ul>
+                   <li><a href ="#">About:</a></li>
+                    <li><a href ="#">Product:</a></li>
+                    <li><a href ="../ebus1.php">Buy Now:</a></li>
+               </ul>
+               <ul>
+                 <li><a href ="#">Contact Us</a></li>
+              </ul> 
+             
+                 <li><a href ="login.html">Login</a></li>
+             
+        </ul>
+        
+        <form class ="search-form">
+         <input type ="text" placeholder ="search">
+         <button>Search</button>
+        </form>
+        
+       </div>
+       
+       <h1 class="mainheading">Wave Crest Communications </h1> 
+       
        <div class="container">
-       <div class="salesforce">
+          <div class="salesforce">
           <img src="http://resources.tradegecko.com/hs-fs/hub/407937/file-2384756522-png/site/images/add-ons/Resize-2salesforce.png" width="250" height="150">
            <h4>Salesforce.com, Inc.  is an American cloud computing company headquartered in San Francisco, California. Though its revenue comes from a customer relationship management (CRM) product, Salesforce also sells commercial applications of social networking through acquisition and internal development.</h4>
             </div>
@@ -30,7 +146,7 @@
            <div class="gmail">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGyBsFuhXjEgebCtQKN8307IfKYIQepXJQGETeBQdf9K-yf5OQ" width="200" height="200"> 
          <h4>Gmail is a free, advertising-supported email service developed by Google. Users can access Gmail on the web and using third-party programs that synchronize email content through POP or IMAP protocols.</h4>
-           </div>
+            </div>
            </div>
      
        <div class="footer">
