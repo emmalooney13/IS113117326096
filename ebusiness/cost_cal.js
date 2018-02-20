@@ -4,16 +4,15 @@ function calcSub(){
     
     var argSubTotal;
     
-    if(document.getElementById("salesforce").checked) {
+    if(document.getElementById("salesforce").checked){
     argSubTotal = 100;
-}else if(document.getElementById("cloud9").checked) {
+} else if(document.getElementById("cloud9").checked){
     argSubTotal = 300;
-}else if(document.getElementById("amazon").checked) {
+} else if(document.getElementById("amazon").checked){
     argSubTotal = 200;
-}else if(document.getElementById("gmail").checked) {
+} else(document.getElementById("gmail").checked){
      argSubTotal = 150;
 }
-
 display(argSubTotal);
 }
 
