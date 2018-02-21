@@ -11,7 +11,7 @@
     
     </head>
     
-    <body style="background-color:powderblue;">
+    <body style="background-color:  lightgrey;">
         
         <center><h4>Select A Product</h4>
         
@@ -54,19 +54,30 @@
         </label>
         
         <br/>
+        <label for="discount">
+            Discount
+            <input type="text" id="discount" value="0.00" readonly/>
+        </label>
+        <br/>
         
+        <label for="vat">
+            Vat
+            <input type="text" id="vat" value="0.00" readonly/>
+        </label>
+        
+        <br/>
         <label for="total">
             Total
             <input type="text" id="total" name="total" value="0.00" readonly/>
         </label>
         
         <br/>
-        
         <button type="submit" id="btnProceed" diabled>Add to Shopping Cart</button>
         
         </form>
         
         <br/>
+        
         <button onClick="calcSub()">Calculate Cost</button>
           <a role="button" href="Ebus1.php">Clear Choice</a></center>
           </div>
