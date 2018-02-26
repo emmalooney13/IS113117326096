@@ -12,14 +12,16 @@
     </head>
     
     <body style="background-color:  lightgrey;">
-        
-        <center><h4>Select A Product</h4>
-        
+        <div class="container1">
+            
+       
+        <center><h4>Select A Product</h4></center>
+         </div>
         <br/>
         <div class="container">
         <form method="POST" action="ebus2.php">
         
-        <label for="Sales Force">
+       <center><label for="Sales Force">
             <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/> 
         Sales Force @ $100
         </label>
