@@ -4,71 +4,10 @@
   margin:2% ;
   height:80%;
   width:96%;
- 
   
   
 }
 body{
   background-color: lightgrey;
+  font-style: Georgia;
 }
-.cloud9content .awscontent .gmailcontent .salescontent h3{
-  position:absolute;
-  top:20%;
-  left:10%;
-  width:100%;
-  height:52.5%;
-  font-size:15px;
-}
- .cloud9content{
-     position:absolute;
-  top:20%;
-  left:25%;
-  width:25%;
-  height:100%;
-  
-  
-}
-.salescontent{
-  width:25%;
-  height:100%;
- position:absolute;
-  top:20%;
-  left:0%;
- 
- 
-}
-
-
-
-
-.cloud9content h1{
-  position:relative;
-  text-align:center;
-}
-
-
-
-
-
-
-
-.awscontent{
-   width:25%;
-  height:100%;
-  position:absolute;
-  top:20%;
-  left:50%;
- 
-}
-
-
-
-.gmailcontent{
-  width:25%;
-  height:100%;
- 
-  position:absolute;
-  top:20%;
-  left:75%;
-}
-
