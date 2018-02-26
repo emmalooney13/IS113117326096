@@ -8,6 +8,9 @@
   
   
 }
+body{
+  background-color: lightgrey;
+}
 .cloud9content .awscontent .gmailcontent .salescontent h3{
   position:absolute;
   top:20%;
