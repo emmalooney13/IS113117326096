@@ -1,51 +1,56 @@
 /* global $ */
-
+ var argSubTotal;
+ 
 function calcSub(){
     
-    var argSubTotal;
-    var argDiscount;
-    var argVat;
-    var argtotal;
-    
+  
 if(document.getElementById("salesforce").checked) {
     argSubTotal = 100;
-    argDiscount = (100) *.05;
-    argVat = (100)*.1;
-    argtotal = argSubTotal - argDiscount + argVat;
+   
     
 } else if (document.getElementById("cloud9").checked) {
     argSubTotal = 300;
-    argDiscount = (300) *.05;
-     argVat = (300)*.1;
-      argtotal = argSubTotal - argDiscount + argVat;
+   
 } else if (document.getElementById("amazon").checked) {
     argSubTotal = 200;
-    argDiscount = (200) *.05;
-     argVat = (200)*.1;
-      argtotal = argSubTotal - argDiscount + argVat;
+   
 } else  {
      argSubTotal = 150;
-     argDiscount = (150) *.05;
-     argVat = (150)*.1;
-      argtotal = argSubTotal - argDiscount + argVat;
      
 }
-display(argSubTotal);
-display(argDiscount);
-display(argVat);
-display(argtotal)
+
+    calcDisVatTotal(argSubTotal);
+
 }
 
-function display(parm1){
+function calcDisVatTotal(parmSubTotal){
+    var subtotal = argSubTotal;
+    var argVat;
+    var argtotal;
+    var argDiscount
+    var argtotal;
+
+
+ 
+argDiscount = argSubTotal * 0.05;
+argVat = argSubTotal * 0.1;
+argtotal = ((argSubTotal - argDiscount) + argVat) ;
+
+
+   
+display(argSubTotal, argDiscount, argVat, argtotal);
+
+}
+    
+    function display(parm1, parm2, parm3, parm4){
     document.getElementById("subtotal").value = parm1;
-    document.getElementById("discount").value = parm1;
-     document.getElementById("vat").value = parm1;
-    document.getElementById("total").value = parm1;
+    document.getElementById("discount").value = parm2;
+     document.getElementById("vat").value = parm3;
+    document.getElementById("total").value = parm4;
        
        enablebtnProceed();
        
 }
-
 
     function enablebtnProceed(){
         $('#btnProceed').prop('disabled', false);

@@ -13,7 +13,7 @@ session_start();
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     
-    <body style="background-color:powderblue;">
+    <body style="background-color:lightgrey;">
         <h4>Please enter your Personal Details.</h4>
             <br/>
                <form method = "POST" action = "Ebus3.php">
