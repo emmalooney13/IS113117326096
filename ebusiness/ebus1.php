@@ -7,15 +7,38 @@
     <!--jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="cost_cal.js"></script>
-      <link rel="stylesheet" href="mystylesheet4.css" type="text/css"/>
-    
+      
     </head>
     
     <body style="background-color:  lightgrey;">
+      <style>
+      .container{
+    display:inline;
+}
+.container1{
+
+     top:0%;
+  width:100%;
+  height:250%;
+
+
+}
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-style: sans-serif;
+  
+}
+</style>
+        
         <div class="container1">
-            
+            <img src="https://www.surfertoday.com/images/stories/breakingwave.jpg" alt="wave" width="1440" height="250" >
+           <div class="centered"><h1>Select A Product</h1></div>
        
-        <center><h4>Select A Product</h4></center>
+       
          </div>
         <br/>
         <div class="container">
@@ -27,6 +50,7 @@
         </label>
         
         <br/>
+        <br/>
         
         <label for="Cloud 9">
             <input type="radio" id="cloud9" name="product" checked onClick="disablebtnProceed()"/> 
@@ -34,12 +58,14 @@
         </label>
         
          <br/>
+         <br/>
          
          <label for="Amazon">
             <input type="radio" id="amazon" name="product" checked onClick="disablebtnProceed()"/> 
         Amazon @ $200
         </label>
         
+         <br/>
          <br/>
          
          <label for="Gmail">
@@ -54,25 +80,26 @@
             Sub Total
             <input type="text" id="subtotal" value="0.00" readonly/>
         </label>
-        
+        <br/>
         <br/>
         <label for="discount">
-            Discount
+            Discount @ 5%
             <input type="text" id="discount" value="0.00" readonly/>
         </label>
         <br/>
+        <br/>
         
         <label for="vat">
-            Vat
+            Vat @ 10%
             <input type="text" id="vat" value="0.00" readonly/>
         </label>
-        
+        <br/>
         <br/>
         <label for="total">
             Total
             <input type="text" id="total" name="total" value="0.00" readonly/>
         </label>
-        
+        <br/>
         <br/>
         <button type="submit" id="btnProceed" diabled>Add to Shopping Cart</button>
         

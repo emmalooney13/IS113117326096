@@ -27,8 +27,8 @@ function calcDisVatTotal(parmSubTotal){
     var subtotal = argSubTotal;
     var argVat;
     var argtotal;
-    var argDiscount
-    var argtotal;
+    var argDiscount;
+ 
 
 
  
