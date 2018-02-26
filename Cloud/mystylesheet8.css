@@ -4,6 +4,10 @@ body{
 .container{
     background-color:white;
 }
+
+.header{
+ background-image:url("https://www.ctvnews.ca/polopoly_fs/1.3580985.1504885310!/httpImage/image.jpg_gen/derivatives/landscape_960/image.jpg" ) ;
+}
   body{
          margin:0;
          background: lightgrey;

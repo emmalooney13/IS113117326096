@@ -44,7 +44,7 @@ ul> nav> a:hover{
 
 .content h1{
   line-height: 1000px;
-  color: #999;
+  color:  #6495ED;
 }
 
 
@@ -53,11 +53,13 @@ ul> nav> a:hover{
   width:100%;
   height:250%;
   padding:3%;
-  background:white;
+  background: white;
+  color:white;
 }
 
 a{
   text-decoration:none;
+  color:black;
 }
 nav a{
  
@@ -89,7 +91,7 @@ nav a{
 .sales-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: 	#FFEBCD;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -114,14 +116,6 @@ nav a{
 .Salesforce:hover .sales-content {
   display: block;
 }
-
-
-
-
-
-
-
-
 
 
 /* The dropdown container */
@@ -297,9 +291,49 @@ nav a{
   
 }
 
+.salescontent{
+position: absolute;
+  top: 17%;
+  left:0%;
+}
+
+.sales{
+  position: absolute;
+  top: 17%;
+  left:25%;
+}
 
 
+.cloud9content{
+   position: absolute;
+  top: 47%;
+  left:0%;
 
+}
+.Cloud{
+  position: absolute;
+  top: 47%;
+  left:25%;
+}
 
-
+.awscontent{
+   position: absolute;
+  top: 97%;
+  left:0%;
+}
+.aws{
+  position: absolute;
+  top: 107%;
+  left:25%;
+}
+.gmailcontent{
+  position: absolute;
+  top: 137%;
+  left:0%;
+}
+.gmail1{
+  position: absolute;
+  top: 137%;
+  left:25%;
+}
 
