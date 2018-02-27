@@ -11,3 +11,55 @@ body{
   background-color: lightgrey;
   font-style: Georgia;
 }
+/* over lap the image on to the cloud picture*/
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-style: sans-serif;
+}
+.salescontent{
+    width: 275px;
+    border: 5px solid;
+    padding: 25px;
+    margin: 25px;
+    position: absolute;
+    top:70%;
+    left:0%;
+      background-color:white;
+
+}
+.cloud9content{
+    width: 275px;
+    border: 5px solid;
+    padding: 25px;
+    margin: 25px;
+    position: absolute;
+    top:70%;
+    left:25%;
+      background-color:white;
+
+}
+.awscontent{
+    width: 275px;
+    border: 5px solid;
+    padding: 25px;
+    margin: 25px;
+    position: absolute;
+    top:70%;
+    left:50%;
+      background-color:white;
+
+}
+.gmailcontent{
+    width: 275px;
+    border: 5px solid;
+    padding: 25px;
+    margin: 25px;
+    position: absolute;
+    top:70%;
+    left:75%;
+      background-color:white;
+
+}

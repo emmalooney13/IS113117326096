@@ -291,49 +291,50 @@ nav a{
   
 }
 
+
+
+
 .salescontent{
-position: absolute;
-  top: 17%;
-  left:0%;
+    width: 275px;
+    border: 5px solid;
+    padding: 25px;
+    margin: 25px;
+    position: absolute;
+    top:20%;
+    left:0%;
+    background-color:white;
+
 }
-
-.sales{
-  position: absolute;
-  top: 17%;
-  left:25%;
-}
-
-
 .cloud9content{
-   position: absolute;
-  top: 47%;
-  left:0%;
+    width: 275px;
+    border: 5px solid;
+    padding: 25px;
+    margin: 25px;
+    position: absolute;
+    top:20%;
+    left:25%;
+      background-color:white;
 
 }
-.Cloud{
-  position: absolute;
-  top: 47%;
-  left:25%;
-}
-
 .awscontent{
-   position: absolute;
-  top: 97%;
-  left:0%;
-}
-.aws{
-  position: absolute;
-  top: 107%;
-  left:25%;
+    width: 275px;
+    border: 5px solid;
+    padding: 25px;
+    margin: 25px;
+    position: absolute;
+    top:20%;
+    left:50%;
+      background-color:white;
+
 }
 .gmailcontent{
-  position: absolute;
-  top: 137%;
-  left:0%;
-}
-.gmail1{
-  position: absolute;
-  top: 137%;
-  left:25%;
-}
+    width: 275px;
+    border: 5px solid;
+    padding: 25px;
+    margin: 25px;
+    position: absolute;
+    top:20%;
+    left:75%;
+      background-color:white;
 
+}

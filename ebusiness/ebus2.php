@@ -14,6 +14,7 @@ session_start();
     </head>
     
     <body style="background-color:lightgrey;">
+        
         <style>/* Centered text */
 .centered {
     position: absolute;

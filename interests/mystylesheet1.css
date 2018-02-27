@@ -11,6 +11,7 @@ html,body{
 
 .box{
    background-color: white;
+   width: 400;
   
 }
 div> .container> a:hover { 
@@ -18,9 +19,7 @@ div> .container> a:hover {
     color: black;
 }
 
-.container{
-    background-color: lightgrey;
-}
+
 
 ul> nav> a:hover{
   
@@ -40,6 +39,10 @@ nav a{
   height:250%;
   padding:3%;
   background:white;
+  
  
   
+}
+body{ 
+    background-image:url("http://d1s9j44aio5gjs.cloudfront.net/2016/07/The_Benefits_of_Swimming.jpg");
 }
