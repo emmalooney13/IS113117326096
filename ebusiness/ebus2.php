@@ -52,6 +52,7 @@ session_start();
                       Email Address
                    </label>
                    <input type="address" id="address" placeholder="Address" minlength="2">
+                   </form>
         
         <h4>Please enter your payment details.</h4>
         
