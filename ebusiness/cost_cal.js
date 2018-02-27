@@ -9,13 +9,13 @@ if(document.getElementById("Sales Force").checked) {
    
     
 } else if (document.getElementById("Cloud 9").checked) {
-    argSubTotal = 300;
-   
-} else if (document.getElementById("Amazon").checked) {
     argSubTotal = 200;
    
+} else if (document.getElementById("Amazon").checked) {
+    argSubTotal = 300;
+   
 } else  {
-     argSubTotal = 150;
+     argSubTotal = 400;
      
 }
 

@@ -21,7 +21,7 @@ function validateDetails(){
         alert("Please enter your Card number");
         }
     else if (String(pin).length<16){
-        alert("Please make sure your Card Number is accurate");
+        alert("");
         }
     else{
         enablebtnPurchase();

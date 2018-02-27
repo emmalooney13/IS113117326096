@@ -16,14 +16,15 @@ session_start();
     <body style="background-color:lightgrey;">
         <center><Stong><h1>Receipt</h1></Stong></center>
         
-         
+       
+                   
 
         <div class="container">
         <?php
         //echo session variables that were set on previous page 
         echo "total is " . $_SESSION["total"] .".";
         ?>
-        
+        <br/>
          <?php
         //echo session variables that were set on previous page 
       
