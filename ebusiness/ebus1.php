@@ -8,13 +8,13 @@
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
+  
    <body style="background-color:  lightgrey;">
       <style>
       .container{
     display:inline;
 }
 .container1{
-
      top:0%;
   width:100%;
   height:250%;
@@ -28,8 +28,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-style: sans-serif;
-  
-}
+  }
 </style>
     </head>
     
@@ -42,12 +41,12 @@
        
         <h1>Order Form</h1>
         
-       
+          <form name="myForm" method="POST" onsubmit="return validateForm()" action="ebus2.php">
         
         
+            
             </br>
-            </br>
-            <h4>Select a product</h4>
+            <h3>Select a product</h3>
             
            
             
@@ -56,14 +55,17 @@
                 SalesForce @ $100
             </label>
             
-            <br/>
+             </br>
+              </br>
             
              <label for="cloud">
                 <input type="radio" id="cloud" name="product" onclick="disablebtnProceed()"/>
                 Cloud9 @ $200
             </label>
             
-            </br>
+          
+              </br>
+                </br>
             
             <label for="aws">
                 <input type="radio" id="aws" name="product" onclick="disablebtnProceed()"/>
@@ -72,35 +74,37 @@
             
             
             </br>
-            
+              </br>
              <label for="gmail">
                 <input type="radio" id="gmail" name="product" onclick="disablebtnProceed()"/>
                 Gmail @ $250
             </label>
             
-            <br/>
-            <br/>
+              </br>
+         </br>
             
             <label for="subtotal">
                 Sub Total
                 <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
             </label>
-            
-            <br/>
+          </br>
+            </br>
             
              <label for="discount">
-                Discount
+              Discount @ 5%
                 <input type="text" id="discount" name="discount" value="0.00" readonly/>
             </label>
             
               </br>
+                </br>
               
             <label for="vat">
-                V.A.T  
+               Vat @ 10% 
                 <input type="text" id="vat" name="vat" value="0.00" readonly/>
             </label>
             
             </br>
+              </br>
             
             <label for="total">
                 Total

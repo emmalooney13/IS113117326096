@@ -3,40 +3,45 @@
     <head>
   <title>117326096 </title>
     <link rel="stylesheet" href="mystylesheet2.css" type="text/css"/>
+  
+  <!-- inline styling as in style sheet wasn't posting to heroku-->
    <style>
+   /* setting a background image*/
        body{
  background-image: url("https://static.wixstatic.com/media/9c608a_30e7a1feae5c4d8a96f3cd1261fd4658.jpg/v1/fill/w_1000,h_581,al_c,q_85/9c608a_30e7a1feae5c4d8a96f3cd1261fd4658.jpg")  ;
   background-size: cover;
 }
+/* setting the width we want*/
 html,body{
   width:100%;
 }
-
+/* setting the position in the container*/
 ul{
   position:relative;
   top:10%;
   left:60%;
 }
-
+/* displaying the text inline and giving them a margin between each other */
 ul li{
   display:inline;
  margin: 2%;
 }
 
 
-
+/* setting the position in the container*/
 nav{
   position:absolute;
   top:10%;
   left:-30%;
   width:100%;
 }
-
+/* setting the colour for hovering and the text colour*/
 ul> nav> a:hover{
   
     background-color: lightgrey;
      color: black;
 }
+/* etting the width and height, setting the font style,size */
 .mainheading{
    width: 100%;
   height: 100%;
@@ -48,13 +53,13 @@ ul> nav> a:hover{
 }
 
 
-
+/*setting the colour and line height*/
 .content h1{
   line-height: 1000px;
   color: #999;
 }
 
-
+/* setting the position, background colour */
 .container{
   top:0%;
   width:100%;
@@ -62,10 +67,11 @@ ul> nav> a:hover{
   padding:3%;
   background:white;
 }
-
+/* stop it appearing as a link*/
 a{
   text-decoration:none;
 }
+/* setting the tet colou*/
 nav a{
  
   color:black;
@@ -75,7 +81,7 @@ nav a{
     </head>
     <body>
         <div class = "container">
-                  
+             <!-- setting a container to display the information -->     
         <ul>
           
             <nav>

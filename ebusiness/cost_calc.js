@@ -1,8 +1,8 @@
 /* global $ */
 
     var argSubTotal;
-    var argVatAmt;
-    var argDiscountAmt;
+    var argVat;
+    var argDiscount;
     var argTotalPrice;
 
 function calcSub(){
@@ -30,25 +30,25 @@ calcDisVatTotal();
    
     
      if(document.getElementById('salesforce').checked) {
-    argDiscountAmt = 100 * 0.05;
-    argVatAmt = (100 - argDiscountAmt) * 0.10;
-    argTotalPrice = ((100 -argDiscountAmt) + argVatAmt);
+    argDiscount = 100 * 0.05;
+    argVat = (100 - argDiscount) * 0.10;
+    argTotalPrice = ((100 -argDiscount) + argVat);
     
  } else if(document.getElementById('aws').checked) { 
-    argDiscountAmt = 300 * 0.05;
-    argVatAmt = (300 - argDiscountAmt) * 0.10;
-    argTotalPrice = ((300 - argDiscountAmt) + argVatAmt);
+    argDiscount = 300 * 0.05;
+    argVat = (300 - argDiscount) * 0.10;
+    argTotalPrice = ((300 - argDiscount) + argVat);
     
  } else if(document.getElementById('gmail').checked) {
-    argDiscountAmt = 400 * 0.05;
-    argVatAmt = (400 - argDiscountAmt) * 0.10;
-    argTotalPrice = ((400 - argDiscountAmt) + argVatAmt);
+    argDiscount = 400 * 0.05;
+    argVat = (400 - argDiscount) * 0.10;
+    argTotalPrice = ((400 - argDiscount) + argVat);
  } else {  
-    argDiscountAmt = 200 * 0.05;
-    argVatAmt = (200 - argDiscountAmt) * 0.10;
-    argTotalPrice = ((200 - argDiscountAmt) + argVatAmt);
+    argDiscount = 200 * 0.05;
+    argVat = (200 - argDiscount) * 0.10;
+    argTotalPrice = ((200 - argDiscount) + argVat);
  }
-display(argSubTotal, argVatAmt, argDiscountAmt, argTotalPrice)
+display(argSubTotal, argVat, argDiscount, argTotalPrice)
 }
 
 function display(parm1, parm2, parm3, parm4){

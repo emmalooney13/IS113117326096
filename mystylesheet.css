@@ -1,56 +1,68 @@
+/* setting the width we want*/
 html,body{
   width:100%;
 }
+/* setting the text to center*/
 .mainheading{
     text-align: center;
   
 }
+/* setting the position for the button*/
 .button2{
     position: absolute;
     top: 52.5%;
     left:85%;
  
 }
+/* setting the position for the button*/
 .button3{
     position: absolute;
     top: 171%;
     left:85%;
 }
+/* setting the position for the button*/
 .button4{
     position: absolute;
     top: 92.5%;
     left:84%;
 }
+/* setting the colour for hovering and the text colour*/
 div> .button1> a:hover { 
     background-color: lightgrey;
     color: black;
     
 }
+/* setting the colour for hovering and the text colour*/
 div> .button2> a:hover { 
     background-color: lightgrey;
      color: black;
     
 }
+/* setting the colour for hovering and the text colour*/
 div> .button3> a:hover { 
     background-color: lightgrey;
      color: black;
     
 }
+/* setting the colour for hovering and the text colour*/
 div> .button4> a:hover { 
     background-color: white;
      color: black;
     
 }
+/*setting the colour for the button*/
 btn-dark{
     background:red;
 }
+/*setting the colour for the button*/
 btn-success{
     background:blue;
 }
+/*setting the colour for the page*/
 body{
     background-color: lightgrey;
 }
-
+/* getting rid of the button points */
 a li{
     list-style: none;
     color:black;
@@ -64,7 +76,4 @@ a li{
 
 .container{
     background-color:white;
-}
-.img{ 
-    
 }

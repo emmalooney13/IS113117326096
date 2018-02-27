@@ -27,11 +27,13 @@ session_start();
         </style>
           <div class="container1">
             <img src="https://www.surfertoday.com/images/stories/breakingwave.jpg" alt="wave" width="1440" height="250" >
-           <div class="centered"><h1>Please enter your Personal Details.</h1></div>
+           <div class="centered"><h1>Wave Crest Communations</h1></div>
        
        
      
             <br/>
+            <h3>Please enter your details</h3>
+            </br>
                <form method = "POST" action = "Ebus3.php">
                    <label for="name">
                        First Name
@@ -47,7 +49,7 @@ session_start();
                    <input type="lastname" id="last_name" placeholder="Last Name" minlength="2">
                    <br/>
                    <label for="address">
-                       Address
+                      Email Address
                    </label>
                    <input type="address" id="address" placeholder="Address" minlength="2">
         
