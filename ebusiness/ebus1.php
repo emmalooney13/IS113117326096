@@ -18,6 +18,7 @@
      top:0%
   width:100%;
   height:250%;
+  text-align: center;
 
 
 }
@@ -27,17 +28,20 @@
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-style: sans-serif;
+   
+  }
+  .body{
+      background-color:lightgrey;
   }
 </style>
     </head>
     
-    <body style="background-color:  lightgrey;">
+    <body>
         <div class="container1">
             <img src="https://www.surfertoday.com/images/stories/breakingwave.jpg" alt="wave" width="1440" height="250" >
            <div class="centered"><h1>Wave crest Communications</h1></div>
        
-        <center>
+       
        
         <h1>Order Form</h1>
         
@@ -45,7 +49,7 @@
         
         
             
-            </br>
+            <br>
             <h3>Select a product</h3>
             
            
@@ -55,8 +59,8 @@
                 SalesForce @ $100
             </label>
             
-             </br>
-              </br>
+             <br>
+              <br>
             
              <label for="cloud">
                 <input type="radio" id="cloud" name="product" onclick="disablebtnProceed()"/>
@@ -64,8 +68,8 @@
             </label>
             
           
-              </br>
-                </br>
+              <br>
+                <br>
             
             <label for="aws">
                 <input type="radio" id="aws" name="product" onclick="disablebtnProceed()"/>
@@ -73,38 +77,38 @@
             </label>
             
             
-            </br>
-              </br>
+            <br>
+              <br>
              <label for="gmail">
                 <input type="radio" id="gmail" name="product" onclick="disablebtnProceed()"/>
                 Gmail @ $250
             </label>
             
-              </br>
-         </br>
+              <br>
+              <br>
             
             <label for="subtotal">
                 Sub Total
                 <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
             </label>
-          </br>
-            </br>
+             <br>
+            <br>
             
              <label for="discount">
               Discount @ 5%
                 <input type="text" id="discount" name="discount" value="0.00" readonly/>
             </label>
             
-              </br>
-                </br>
+              <br>
+                <br>
               
             <label for="vat">
                Vat @ 10% 
                 <input type="text" id="vat" name="vat" value="0.00" readonly/>
             </label>
             
-            </br>
-              </br>
+            <br>
+              <br>
             
             <label for="total">
                 Total
@@ -112,20 +116,20 @@
             </label>
             
             
-            </br>
-            </br>
+            <br>
+            <br>
             
             <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             
         </form>
         
-        <br/>
+        <br>
         <button onClick="calcSub()">Calculate Cost</button>
         <a role="button" href="Ebus1.php">Clear Choice</a>
         
-        </center>
        
-        
+       
+        </div>
     </body>
 </html>
             

@@ -13,13 +13,7 @@ $email =$_REQUEST['email'];
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="number.js"></script>
       
-      <style>
-          .container{
-              background:white;
-              width: 200;
-              height:400;
-          }
-      </style>
+     
      </head>
     <body style="background-color:lightgrey;">
         
@@ -31,6 +25,7 @@ $email =$_REQUEST['email'];
      top:0%;
   width:100%;
   height:250%;
+  text-align: center;
 
 
 }
@@ -40,7 +35,7 @@ $email =$_REQUEST['email'];
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-style: sans-serif;
+   
   }
   </style>
    <div class="container1">
@@ -48,12 +43,12 @@ $email =$_REQUEST['email'];
            <div class="centered"><h1>Wave crest Communications</h1></div>
        
         
-        <center><Stong><h1>Receipt</h1></Stong></center>
+        <Stong><h1>Receipt</h1></Stong>
         
        
                    
 
-       <center> 
+       
              <?php
             //Echo session varaibles that were set to the previous page
         echo("<strong>Name: </strong>". $name);
@@ -63,6 +58,8 @@ $email =$_REQUEST['email'];
     
       
         </div>
-        </center>
+        <div class="container2">
+            <a href="ebusiness/CloudServices.html"><li>Wave Crest Communications</li></a>
+        </div>
     </body>
     </html>

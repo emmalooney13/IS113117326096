@@ -13,7 +13,7 @@ session_start();
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     
-    <body style="background-color:lightgrey;">
+    <body>
         
         <style>/* Centered text */
 .centered {
@@ -21,10 +21,12 @@ session_start();
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-style: sans-serif;
-  
-}</style>
-            
+    
+    
+}
+   .body{
+       background-color:lightgrey;
+   }         
         </style>
           <div class="container1">
             <img src="https://www.surfertoday.com/images/stories/breakingwave.jpg" alt="wave" width="1440" height="250" >
@@ -32,9 +34,9 @@ session_start();
        
        
      
-            <br/>
+            <br>
             <h3>Please enter your details</h3>
-            </br>
+            <br>
             
             
             
@@ -47,19 +49,20 @@ session_start();
                         <input type ='text' id ="name" name = "name"/>
                     </label>
                     <br><br>
-                    <label for "email">
+                    <label for = "email">
                         <strong> Email:</strong>
                         <br>
                         <input type = "email" id ="email" name="email"/>
                     </label>
                     <br><br>
                     
-                    <label for="user_number"><strong>Card Number</strong></label>
+                    <label for = "user_number">
+                        <strong>Card Number</strong></label>
                     <br>
-                     <input type = "user_number" id ="user_number" name="user_number" maxlength="16"/>
+                     <input type = "text" id ="user_number" name="user_number" maxlength="16"/>
                
                 <br><br>
-                <label for="user_pin">
+                <label for = "user_pin">
                      PIN 
                 </label>
                 
@@ -70,9 +73,9 @@ session_start();
                 <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
               
             </form>
-           
+           </div>
             
-            <br/>
+            <br>
             <button onClick="validateDetails()">Validate</button>
           
             <?php
