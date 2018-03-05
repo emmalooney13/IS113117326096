@@ -10,20 +10,20 @@ html,body{
 /* setting the position for the button*/
 .button2{
     position: absolute;
-    top: 52.5%;
+    top: 55%;
     left:85%;
  
 }
 /* setting the position for the button*/
 .button3{
     position: absolute;
-    top: 171%;
+    top: 184%;
     left:85%;
 }
 /* setting the position for the button*/
 .button4{
     position: absolute;
-    top: 92.5%;
+    top: 189%;
     left:84%;
 }
 /* setting the colour for hovering and the text colour*/
