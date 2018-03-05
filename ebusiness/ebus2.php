@@ -35,57 +35,50 @@ session_start();
             <br/>
             <h3>Please enter your details</h3>
             </br>
-               <form method = "POST" action = "Ebus3.php">
-                   <label for="name">
-                       First Name
-                        <input type="name" id="name" placeholder="First Name" minlength="2">
-                   </label>
-                 
-                   
-                   <br/>
             
-                   <label for="lastname">
-                       Last Name
-                   </label>
-                   <input type="lastname" id="last_name" placeholder="Last Name" minlength="2">
-                   <br/>
-                   <label for="address">
-                      Email Address
-                   </label>
-                   <input type="address" id="address" placeholder="Address" minlength="2">
-                   </form>
-        
-        <h4>Please enter your payment details.</h4>
-        
-            <br />
             
-            <form method = "POST" action = "Ebus3.php">
-                <label for="user_number">
-                     Card Number
-                </label>
-                <input  id="user_number" placeholder="Card Number" maxlength="16">
-                <br/>
+            
+            
+             <form name = "myForm"  method="POST" action="Ebus3.php">
+                    <br>
+                    <label for = "name">
+                        <strong>  Name:</strong>
+                        <br>
+                        <input type ='text' id ="name" name = "name"/>
+                    </label>
+                    <br><br>
+                    <label for "email">
+                        <strong> Email:</strong>
+                        <br>
+                        <input type = "email" id ="email" name="email"/>
+                    </label>
+                    <br><br>
+                    
+                    <label for="user_number"><strong>Card Number</strong></label>
+                    <br>
+                     <input type = "user_number" id ="user_number" name="user_number" maxlength="16"/>
+               
+                <br><br>
                 <label for="user_pin">
                      PIN 
                 </label>
                 
-                
-                <input type="password" id="user_pin" placeholder="Card Pin" maxlength="4">
-                    
-                <button type="Submit" id="btnPurchase" disabled> 
-                    Proceed with Purchase 
-                </button>
-                
+                    <label for="user_pin"><strong>PIN:</strong></label>
+                    <br>
+                   <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
+                    <br><br><br>
+                <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
+              
             </form>
+           
             
-            <br />
-            
-            <button onClick="validateDetails()"> Validate </button>
-            
+            <br/>
+            <button onClick="validateDetails()">Validate</button>
+          
             <?php
             //set session variable 
             $_SESSION["total"]=$_POST["total"];
-            $_SESSION["name"]=$_POST["name"];
+           
             ?>
         
         <script type="text/javascript" src="ebus2_validator.js"></script>
@@ -96,3 +89,5 @@ session_start();
     
     
 </html>
+
+

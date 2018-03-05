@@ -9,7 +9,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
   
-   <body style="background-color:  lightgrey;">
+   
       <style>
       .container{
     display:inline;
@@ -32,7 +32,7 @@
 </style>
     </head>
     
-    <body>
+    <body style="background-color:  lightgrey;">
         <div class="container1">
             <img src="https://www.surfertoday.com/images/stories/breakingwave.jpg" alt="wave" width="1440" height="250" >
            <div class="centered"><h1>Wave crest Communications</h1></div>

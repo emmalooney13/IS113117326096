@@ -1,6 +1,7 @@
 <?php
-//start session
 session_start();
+$name = $_REQUEST['name'];
+$email =$_REQUEST['email'];
 ?>
 <!DOCTYPE html>
 <html>
@@ -21,22 +22,46 @@ session_start();
       </style>
      </head>
     <body style="background-color:lightgrey;">
+        
+      <style>
+      .container{
+    display:inline;
+}
+.container1{
+     top:0%;
+  width:100%;
+  height:250%;
+
+
+}
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-style: sans-serif;
+  }
+  </style>
+   <div class="container1">
+            <img src="https://www.surfertoday.com/images/stories/breakingwave.jpg" alt="wave" width="1440" height="250" >
+           <div class="centered"><h1>Wave crest Communications</h1></div>
+       
+        
         <center><Stong><h1>Receipt</h1></Stong></center>
         
        
                    
 
-       <center> <div class="container">
-        <?php
-        //echo session variables that were set on previous page 
-        echo "total is " . $_SESSION["total"] .".";
+       <center> 
+             <?php
+            //Echo session varaibles that were set to the previous page
+        echo("<strong>Name: </strong>". $name);
+        echo("<br><strong>Email: </strong>". $email);
+        echo "<br><strong>Total: $</strong>" .$_SESSION["total"] ;
         ?>
-        <br/>
-         <?php
-        //echo session variables that were set on previous page 
+    
       
-        echo "first name is " . $_SESSION["name"] .".";
-        ?>
         </div>
         </center>
     </body>
