@@ -77,3 +77,8 @@ a li{
 .container{
     background-color:white;
 }
+.work{
+    position:relative;
+    top:0%;
+    left:40%;
+}
