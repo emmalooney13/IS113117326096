@@ -30,13 +30,11 @@
     transform: translate(-50%, -50%);
    
   }
-  .body{
-      background-color:lightgrey;
-  }
+ 
 </style>
     </head>
     
-    <body>
+    <body style="background-color: lightgrey;">
         <div class="container1">
             <img src="https://www.surfertoday.com/images/stories/breakingwave.jpg" alt="wave" width="1440" height="250" >
            <div class="centered"><h1>Wave crest Communications</h1></div>

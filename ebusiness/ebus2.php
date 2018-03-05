@@ -13,7 +13,7 @@ session_start();
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     
-    <body>
+    <body style="background-color: lightgrey;">
         
         <style>/* Centered text */
 .centered {
@@ -24,9 +24,7 @@ session_start();
     
     
 }
-   .body{
-       background-color:lightgrey;
-   }         
+          
         </style>
           <div class="container1">
             <img src="https://www.surfertoday.com/images/stories/breakingwave.jpg" alt="wave" width="1440" height="250" >
