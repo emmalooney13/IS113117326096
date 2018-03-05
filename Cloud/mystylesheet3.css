@@ -12,7 +12,9 @@
 
 
 body{
-   background-color: lightgrey;
+
+   background-image: url("https://www.surfertoday.com/images/stories/breakingwave.jpg");
+   background-size: cover;
 }
 
 
@@ -132,7 +134,7 @@ html,body{
     left: 50%;
     transform: translate(-50%, -50%);
     font-style: sans-serif;
-  
+  color:white;
 }
 
 
