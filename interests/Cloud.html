@@ -1,75 +1,111 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Cloud Services</title>
-         <link rel="stylesheet" href="mystylesheet5.css" type="text/css"/>
-        
-        
+       <!--specifing the characters encoding-->
+        <meta charset="utf-8"/>
+              <title> Cloud</title>
+    <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
+      <link rel="stylesheet" href="int_pages1.css" type="text/css"/>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     
-        </head>
-        <body>
-            <img src="http://www.marvingames.com/wp-content/uploads/2017/09/cloud.jpg" alt="cloud"   width="1440" height="250">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+<!-- starting the code for the page sliding-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css"> 
+    <!--Page Pilling-->
+    
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
+    <!-- creating a pagepilling function-->
+    <script  type = "text/javascript">
+        $(document).ready(function() {
+	    $('#pagepiling').pagepiling();
+        });
+    </script>
+    
+    </head>
+    <body>
+        <!-- diving up each sliding page and entering the details-->
+        <div id="pagepiling">
+            
+      	<div class="section" id ="section1"> <img src="http://www.marvingames.com/wp-content/uploads/2017/09/cloud.jpg" alt="cloud"   width="1440" height="250">
             <div class="centered"><h1>Cloud Services</h1></div>
     	    <br/>
             <h2>What is a Cloud Server?</h2>
-            <h3>Cloud Server is a Data base that is hosted from a remote location. A customer buys a space from a company, who will host there webpage. The customer is unware of the location of their Server. </h3>
+            <p>Cloud Server is a Data base that is hosted from a remote location. A customer buys a space from a company, who will host there webpage. The customer is unware of the location of their Server. </p>
             <br>
             <h2>What makes this so fascinating?</h2>
-             <h3>A customers webpage can be hosted from across the world, before the servers where very large and had to be within a certain distance. The growth in technology field in recent years has made some many technologic advences. </h3>
-    
-    <!-- setting a container, containing an image-->
-    <div class="salescontent">
+             <p>A customers webpage can be hosted from across the world, before the servers where very large and had to be within a certain distance. The growth in technology field in recent years has made some many technologic advences. </p>
+    </div>
+    </div>
+
+     	<div class="section" id ="section2">
+     	    <!-- setting a container, containing an image-->
+                <div class="salescontent">
         <!-- i sourced this information from https://en.wikipedia.org/wiki/Salesforce.com -->
           <img src="http://resources.tradegecko.com/hs-fs/hub/407937/file-2384756522-png/site/images/add-ons/Resize-2salesforce.png" alt=" salesforce"  width="250" height="150">
-           <h3>Salesforce.com, Inc.  is an American cloud computing company headquartered in San Francisco, California. Though its revenue comes from a customer relationship management (CRM) product, Salesforce also sells commercial applications of social networking through acquisition and internal development.</h3>
+           <p>Salesforce.com, Inc.  is an American cloud computing company headquartered in San Francisco, California. Though its revenue comes from a customer relationship management (CRM) product, Salesforce also sells commercial applications of social networking through acquisition and internal development.</p>
             <h2>Benefits</h2>
             <h3>Get consistent ground-breaking innovation.</h3>
-            <h4>Lead the pack with developments years ahead of other companies. Be among the first to use new technologies thanks to three free upgrades a year and advanced services to help you find the best path for your business. Some achievements include:<h4/>
-            <h4>Artificial intelligence: The first AI built right into your CRM, Analytics: Give every employee data-driven insights, Top performance: We've been ranked #1 by IDC four years running.</h4>
-            
-           
+            <p>Lead the pack with developments years ahead of other companies. Be among the first to use new technologies thanks to three free upgrades a year and advanced services to help you find the best path for your business. Some achievements include:</p>
+            <p>Artificial intelligence: The first AI built right into your CRM, Analytics: Give every employee data-driven insights, Top performance: We've been ranked #1 by IDC four years running.</p>
             </div>
-            <br/>
-             <!-- i sourced this information from https://en.wikipedia.org/wiki/Cloud9_IDE -->
+             </div>
+             
+             
+    	<div class="section" id ="section3">
+    	    <!-- i sourced this information from https://en.wikipedia.org/wiki/Cloud9_IDE -->
             <!-- setting a container, containing an image-->
               <div class="cloud9content">
                <img src="http://ttma1046.github.io/gallery/c9icon.png" width="200" height="200" alt="c9">
-            <h3>Cloud9 IDE is an online integrated development environment, published as open source from version 3.0. It supports hundreds of programming languages, including C, C++, PHP, Ruby, Perl, Python, JavaScript with Node.js, and Go. It enables developers to get started with coding immediately with pre-configured workspaces, collaborate with their peers with collaborative coding features, and web development features like live preview and browser compatibility testing</h3>
+            <p>Cloud9 IDE is an online integrated development environment, published as open source from version 3.0. It supports hundreds of programming languages, including C, C++, PHP, Ruby, Perl, Python, JavaScript with Node.js, and Go. It enables developers to get started with coding immediately with pre-configured workspaces, collaborate with their peers with collaborative coding features, and web development features like live preview and browser compatibility testing</p>
              <h2>Benefits</h2>
             <h3>CODE WITH JUST A BROWSER</h3>
-            <h4>AWS Cloud9 gives you the flexibility to run your development environment on a managed Amazon EC2 instance or any existing Linux server that supports SSH. This means that you can write, run, and debug applications with just a browser and without the need to install or maintain a local IDE. The Cloud9 code editor and integrated debugger include helpful, time-saving features such as code hinting, code completion, and step-through debugging. The Cloud9 terminal provides a browser-based shell experience allowing you to install additional software, do a git push, or enter commands.</h4>
+            <p>AWS Cloud9 gives you the flexibility to run your development environment on a managed Amazon EC2 instance or any existing Linux server that supports SSH. This means that you can write, run, and debug applications with just a browser and without the need to install or maintain a local IDE. The Cloud9 code editor and integrated debugger include helpful, time-saving features such as code hinting, code completion, and step-through debugging. The Cloud9 terminal provides a browser-based shell experience allowing you to install additional software, do a git push, or enter commands.</p>
             <h3>CODE TOGETHER IN REAL TIME</h3>
-            <h4>AWS Cloud9 makes collaborating on code easy. You can share your development environment with your team in just a few clicks and pair-program together. While collaborating, your team members can see each other type in real-time, and instantly chat with one another from within the IDE.</h4>
-             
+            <p>AWS Cloud9 makes collaborating on code easy. You can share your development environment with your team in just a few clicks and pair-program together. While collaborating, your team members can see each other type in real-time, and instantly chat with one another from within the IDE.</p>
              </div>
-             <br/>
-             <!-- i sourced this information from https://en.wikipedia.org/wiki/Amazon_Web_Services -->
+              </div>
+              
+              
+             <div class="section" id ="section4"><!-- i sourced this information from https://en.wikipedia.org/wiki/Amazon_Web_Services -->
              <!-- setting a container, containing an image-->
               <div class="awscontent">
              <img src="https://assets.pcmag.com/media/images/408546-amazon-web-services-logo.jpg?width=333&height=245" alt="aws" width="250" height="200">
-           <h3>Amazon Web Services is a subsidiary of Amazon.com that provides on-demand cloud computing platforms to individuals, companies and governments, on a paid subscription basis.</h3>
+           <p>Amazon Web Services is a subsidiary of Amazon.com that provides on-demand cloud computing platforms to individuals, companies and governments, on a paid subscription basis.</p>
              <h2>Benefits</h2>
             <h3>Easy to use</h3>
-            <h4>AWS is designed to allow application providers, ISVs, and vendors to quickly and securely host your applications – whether an existing application or a new SaaS-based application. You can use the AWS Management Console or well-documented web services APIs to access AWS’s application hosting platform.</h4>
+            <p>AWS is designed to allow application providers, ISVs, and vendors to quickly and securely host your applications – whether an existing application or a new SaaS-based application. You can use the AWS Management Console or well-documented web services APIs to access AWS’s application hosting platform.</p>
             <h3>Cost-Effective</h3>
-            <h4>You pay only for the compute power, storage, and other resources you use, with no long-term contracts or up-front commitments. For more information on comparing the costs of other hosting alternatives with AWS, see the AWS Economics Center.</h4>
+            <p>You pay only for the compute power, storage, and other resources you use, with no long-term contracts or up-front commitments. For more information on comparing the costs of other hosting alternatives with AWS, see the AWS Economics Center.</p>
              
-            </div>
-            <br/>
-             <!-- i souced this information from https://en.wikipedia.org/wiki/Gmail -->
+                  </div>
+                 
+                 </div>
+                 <div class="section" id ="section5">
+               <!-- i souced this information from https://en.wikipedia.org/wiki/Gmail -->
             <!-- setting a container, containing an image-->
            <div class="gmailcontent">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGyBsFuhXjEgebCtQKN8307IfKYIQepXJQGETeBQdf9K-yf5OQ" alt="gmail" width="200" height="200"> 
-         <h3>Gmail is a free, advertising-supported email service developed by Google. Users can access Gmail on the web and using third-party programs that synchronize email content through POP or IMAP protocols.</h3>
+         <p>Gmail is a free, advertising-supported email service developed by Google. Users can access Gmail on the web and using third-party programs that synchronize email content through POP or IMAP protocols.</p>
             
             <h2>Benefits</h2>
             <h3>Spam Filtering</h3>
-            <h4>Most email services offer some sort of spam filtering these days, and Google's is very effective. Gmail attempts to filter advertising spam, viruses, and phishing attempts, but no filter is 100% effective. </h4>
+            <p>Most email services offer some sort of spam filtering these days, and Google's is very effective. Gmail attempts to filter advertising spam, viruses, and phishing attempts, but no filter is 100% effective. </p>
             <h3>Space, Space, and More Space.</h3>
-            <h4>Gmail became popular by giving users ample storage space. Rather than deleting old messages, you could archive them. Today Gmail storage space is shared across Google accounts including Google Drive. As of this writing, the free storage space is 15 gigs across all accounts, but you can buy additional storage space if necessary.  </h4>
-            </div>
-            <div class="home">
-            <a href="../homepage.html">Home</a>
-            </div>
-           </body>
+            <p>Gmail became popular by giving users ample storage space. Rather than deleting old messages, you could archive them. Today Gmail storage space is shared across Google accounts including Google Drive. As of this writing, the free storage space is 15 gigs across all accounts, but you can buy additional storage space if necessary.  </p>
+           
+              <div class="box">
+            <a href="../homepage.html" class="btn btn-success" ><li>Home</li></a>
+           </div> 
+             
+              </div> 
+              </div>
+             
+    	  </body>
+    	    
 </html>

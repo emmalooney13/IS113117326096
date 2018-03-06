@@ -1,18 +1,31 @@
 /* setting the background colour*/
 #section1{
-    background-color: rgb(100,20,90);0
+   background-color: lightgrey;
+  
     
 }
 /* setting the background colour*/
 #section2{
-    background-color: rgb(100,200,80);
+    background-color: lightgrey;
+    
 }
 /* setting the background colour*/
 #section3{
-    background-color: rgb(60,100,204);
+  background-color: lightgrey;
 }
+
+/* setting the background colour*/
+#section4{
+    background-color: lightgrey;
+}
+
+/* setting the background colour*/
+#section5{
+  background-color: lightgrey;
+}
+
 
 .section{
     text-align: center;
-    color: white;
+    color: black;
 }
