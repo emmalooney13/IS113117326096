@@ -37,6 +37,15 @@ $email =$_REQUEST['email'];
     transform: translate(-50%, -50%);
    
   }
+  .container2{
+      text-decoration:none;
+      color:black;
+      
+  }
+  .a{
+  text-decoration:none;
+      color:black;
+  }
   </style>
    <div class="container1">
             <img src="https://www.surfertoday.com/images/stories/breakingwave.jpg" alt="wave" width="1440" height="250" >
@@ -59,7 +68,7 @@ $email =$_REQUEST['email'];
       
         </div>
         <div class="container2">
-            <a href=" ../homepage.html">Wave Crest Communications</a>
+            <a href=" ../homepage.html">Is1113117326096</a>
         </div>
     </body>
     </html>
