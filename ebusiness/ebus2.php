@@ -60,9 +60,6 @@ session_start();
                      <input type = "text" id ="user_number" name="user_number" maxlength="16"/>
                
                 <br><br>
-                <label for = "user_pin">
-                     PIN 
-                </label>
                 
                     <label for="user_pin"><strong>PIN:</strong></label>
                     <br>
