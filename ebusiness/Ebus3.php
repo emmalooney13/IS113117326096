@@ -59,7 +59,7 @@ $email =$_REQUEST['email'];
       
         </div>
         <div class="container2">
-            <a href=" Cloud/CloudServices.html"><li>Wave Crest Communications</li></a>
+            <a href=" ../homepage.html">Wave Crest Communications</a>
         </div>
     </body>
     </html>
